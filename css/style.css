@@ -1,6 +1,8 @@
 /* Import the font of google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;800&display=swap');
 
+
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -13,7 +15,7 @@ body {
 
 /* Barra de navegación */
 header {
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -22,32 +24,34 @@ header {
     transition: 0.3s;
     align-items: center;
     padding: 30px 10%;
-    
+
     /* Altura de la barra */
     height: 100px;
     z-index: 10;
 }
-header.abajo{
-    background: #000;
+
+header.abajo {
+    background: #FFD700;
 }
-.nav_header{
+
+.nav_header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header ul{
+header ul {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
-header ul li{
+header ul li {
     list-style: none;
 }
 
-header ul li a{
+header ul li a {
     position: relative;
     margin: 0 15px;
     text-decoration: none;
@@ -56,9 +60,11 @@ header ul li a{
 
     transition: 0.3s;
 }
-header a{
+
+header a {
     color: white;
 }
+
 
 /* Carrusel */
 .carrousel {
@@ -66,10 +72,10 @@ header a{
 }
 
 .conteCarrousel {
-    width: 100%;
-    height: 500px;
+    margin: auto;
+    width: 1350px;
+    height: 720px;
     overflow: hidden;
-    background-color: #FFD700;
 }
 
 .itemCarrousel {
@@ -101,17 +107,11 @@ header a{
     cursor: pointer;
 }
 
-#itemCarrousel-1 {
-    background-color: #FFD700;
-}
+#itemCarrousel-1 {}
 
-#itemCarrousel-2 {
-    background-color: #FFD700;
-}
+#itemCarrousel-2 {}
 
-#itemCarrousel-3 {
-    background-color: #FFD700;
-}
+#itemCarrousel-3 {}
 
 .itemCarrouselArrows>a>i {
     color: white;
@@ -287,6 +287,10 @@ header a{
     padding-bottom: 12rem;
     padding-right: 2rem;
 }
+
+.about__main .about__icons {}
+
+.about__main .about__icons :hover {}
 
 /* Carrusel */
 

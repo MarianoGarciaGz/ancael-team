@@ -21,7 +21,7 @@
 
 <body>
     <header>
-        <a class="logo" href="/"><img src="img/branding/ancael_white_littlecut.png" alt="logo"></a>
+        <a class="logo" href="/"><img src="img/branding/ancael_black_little.png" alt="logo"></a>
         <nav class="nav_header">
             <ul class="ul_header">
                 <li><a href="#">Novedades</a></li>
@@ -33,14 +33,14 @@
         </nav>
         <a class="" href="#">Iniciar Sesión</a>
     </header>
-    
+
     <!--Esto es un Script para que se tranparnte el header, lo que hace es cambiarle el nombre de la
     clase del heade, mas bien, ponerle uno, para que de esta manera en el css se pueda cambar el estilo-->
-     
+
     <script type="text/javascript">
-        window.addEventListener("scroll", function(){
-         var header = document.querySelector("header");
-            header.classList.toggle("abajo", window.scrollY>0);
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("abajo", window.scrollY > 0);
 
         })
     </script>
@@ -63,7 +63,8 @@
                         </div>
                     </div>
                     <div class="itemCarrousel" id="itemCarrousel-2">
-                        <div class="itemCarrouselTarjeta"><img src="../img/home/encabezado2.jpeg" alt="moda ancael"></div>
+                        <div class="itemCarrouselTarjeta"><img src="../img/home/encabezado2.jpeg" alt="moda ancael">
+                        </div>
                         <div class="itemCarrouselArrows">
                             <a href="#itemCarrousel-1">
                                 <i class="fas fa-chevron-left"></i>
@@ -84,54 +85,39 @@
                             </a>
                         </div>
                     </div>
-                    
-                    <div class="encabezadoTexto">
-                        <p>LO NUEVO EN ROPA</p>
-                        <H1>MEXICANA</H1>
-                        <div class="boton"><a class="btn">VER MÁS</a></div>
-
-                    </div>
                 </div>
+            </div>
 
-                <div class="about__main">
-                    <article class="about__icons">
-                        <img src="./img/home/material.png" class="about__icon">
-                        <h3 class="about__title">Diseño</h3>
-                        <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
-                            tempore
-                            porro eius facilis?</p>
-                    </article>
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./img/home/material.png" class="about__icon">
+                    <h3 class="about__title">Diseño</h3>
+                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
+                        tempore
+                        porro eius facilis?</p>
+                </article>
 
-                    <article class="about__icons">
-                        <img src="./img/home/calidad.png" class="about__icon">
-                        <h3 class="about__title">Calidad</h3>
-                        <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
-                            tempore
-                            porro eius facilis?</p>
-                    </article>
+                <article class="about__icons">
+                    <img src="./img/home/calidad.png" class="about__icon">
+                    <h3 class="about__title">Calidad</h3>
+                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
+                        tempore
+                        porro eius facilis?</p>
+                </article>
 
-                    <article class="about__icons">
-                        <img src="./img/home/diseño.png" class="about__icon">
-                        <h3 class="about__title">Material</h3>
-                        <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
-                            tempore
-                            porro eius facilis?</p>
-                    </article>
-                </div>
-
+                <article class="about__icons">
+                    <img src="./img/home/diseño.png" class="about__icon">
+                    <h3 class="about__title">Material</h3>
+                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
+                        tempore
+                        porro eius facilis?</p>
+                </article>
                 <!-- <div class="about__main"> -->
 
-                <div>
-                    <h2 class="tit">NOVEDADES</h2>
-                </div>
+            </div>
+            <div>
+                <h2 class="tit">NOVEDADES</h2>
 
-                <div class="carrusel">
-
-
-                </div>
-
-
-                <!-- </div> -->
 
         </section>
     </main>
@@ -187,4 +173,5 @@
         </div>
     </footer>
 </body>
+
 </html>
