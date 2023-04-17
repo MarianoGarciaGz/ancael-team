@@ -30,6 +30,11 @@ header {
 header.abajo{
     background: #000;
 }
+
+.abajoIni{
+    background: #000;
+    
+}
 .nav_header{
     display: flex;
     justify-content: center;
@@ -59,6 +64,11 @@ header ul li a{
 header a{
     color: white;
 }
+.IniciarS:hover{
+    color: #FFD700;
+    
+}
+
 
 /* Carrusel */
 .carrousel {
