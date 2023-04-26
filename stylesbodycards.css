@@ -1,0 +1,91 @@
+/* Main body cards*/
+.container-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 10rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.item {
+    border-radius: 30px;
+    background-color: #f6f5f3;
+
+}
+
+.item:hover {
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, .5);
+    transition: 1s;
+}
+
+.item img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+    margin-left: -1rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.item figure {
+    overflow: hidden;
+}
+
+.item:hover img {
+    transform: scale(1.2);
+}
+
+.info-product {
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.btncarrito {
+    border-radius: 6px;
+    width: 10rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+}
+
+.titart {
+    margin-top: -1rem;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: -1.5rem;
+}
+
+.descrip {
+    margin-top: 0.5rem;
+    margin-bottom: -1rem;
+    font-size: 15px;
+}
+
+
+.price {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: -1rem;
+    margin-top: 2rem;
+    border-top: solid 2px #000;
+    line-height: 50px;
+
+}
+
+.info-product button {
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+}

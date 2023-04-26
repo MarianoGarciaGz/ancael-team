@@ -1,6 +1,17 @@
 /* Import the font of google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;800&display=swap');
 
+/* palette 🎨 */
+:root {
+    --white: #ffffff;
+    --black: #323232;
+    --yellow: #FFD700;
+    --red: #FF0000;
+    --blue: #7ebdd8;
+    --navy: #313F60;
+    --shadow: rgba(0, 0, 0, .5);
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -13,7 +24,7 @@ body {
 
 /* Barra de navegación */
 header {
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -22,37 +33,39 @@ header {
     transition: 0.3s;
     align-items: center;
     padding: 30px 10%;
-    
+
     /* Altura de la barra */
     height: 100px;
     z-index: 10;
 }
-header.abajo{
+
+header.abajo {
     background: #000;
 }
 
-.abajoIni{
+.abajoIni {
     background: #000;
-    
+
 }
-.nav_header{
+
+.nav_header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header ul{
+header ul {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
-header ul li{
+header ul li {
     list-style: none;
 }
 
-header ul li a{
+header ul li a {
     position: relative;
     margin: 0 15px;
     text-decoration: none;
@@ -61,25 +74,27 @@ header ul li a{
 
     transition: 0.3s;
 }
-header a{
+
+header a {
     color: white;
 }
-.IniciarS:hover{
+
+.IniciarS:hover {
     color: #FFD700;
-    
+
 }
 
 
 /* Carrusel */
+
 .carrousel {
     width: 100%;
 }
 
 .conteCarrousel {
     width: 100%;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
-    background-color: #FFD700;
 }
 
 .itemCarrousel {
@@ -111,16 +126,36 @@ header a{
     cursor: pointer;
 }
 
-#itemCarrousel-1 {
-    background-color: #FFD700;
-}
-
-#itemCarrousel-2 {
-    background-color: #FFD700;
-}
-
+#itemCarrousel-1,
+#itemCarrousel-2,
 #itemCarrousel-3 {
-    background-color: #FFD700;
+    background-color: var(--white);
+    box-shadow: 0px 10px 10px 0px var(--shadow);
+}
+
+.conteCarrouselController {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController>a {
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.conteCarrouselController {
+    margin: auto;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController>a {
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
 }
 
 .itemCarrouselArrows>a>i {
@@ -297,10 +332,6 @@ header a{
     padding-bottom: 12rem;
     padding-right: 2rem;
 }
-
-/* Carrusel */
-
-
 
 /* Footer */
 
